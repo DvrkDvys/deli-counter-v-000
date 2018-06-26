@@ -21,8 +21,12 @@ def take_a_number(arr, name)
   return info
 end
 
-def now_serving(katz_deli)
-  puts "Currently serving #{kat}."
+def now_serving(arr)
+   if rest_arr.length == 0 
+    puts "The line is currently empty."
+  else line = rest_arr.join(" ")
+    puts "The line is currently: #{line}"
+  end
 end
  
 def line(rest_arr)
