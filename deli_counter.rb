@@ -6,11 +6,9 @@ require "pry"
 def take_a_number(arr, name)
   num_in_line = arr.length
   if num_in_line != 0
-  until num_in_line == 1
-  
-  
-  
+  num_in_line = num_in_line + 1
   arr = arr.push.("#{num_in_line}. #{name}")
+  puts "Welcome, #{name}. You are number 1 in line.""
   return arr
   end
 end
