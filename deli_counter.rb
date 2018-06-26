@@ -2,8 +2,12 @@
 
 katz_deli = []
 
-take_a_number(katz_deli, "Matz")
+def take_a_number(katz_deli, "Matz")
+  
+end
 
-now_serving(katz_deli) #=> "Currently serving Ada."
+def now_serving(katz_deli) #=> "Currently serving Ada."
+
+end
  
 line(katz_deli) #=> "The line is currently: 1. Grace 2. Kent"
