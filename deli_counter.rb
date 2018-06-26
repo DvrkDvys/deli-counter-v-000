@@ -12,6 +12,6 @@ end
  
 def line(restaurant_array)
   if restaurant_array.length = 0 
-    puts "The line is currentlyempty
+    puts "The line is currently empty"
     puts "The line is currently: 1. #{} 2. #{}"
 end
