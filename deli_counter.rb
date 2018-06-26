@@ -17,7 +17,7 @@ require "pry"
 def take_a_number(arr, name)
   arr << name
   binding.pry
-  puts "Welcome, #{name}. You are number #{arr.length} in line."
+  return"Welcome, #{name}. You are number #{arr.length} in line."
 end
 
 def now_serving(katz_deli)
