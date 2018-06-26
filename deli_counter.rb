@@ -2,8 +2,8 @@
 
 katz_deli = []
 
-def take_a_number(katz_deli, "Matz")
-  
+def take_a_number
+  # katz_deli, "Matz"
 end
 
 def now_serving(katz_deli)
