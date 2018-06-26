@@ -1,7 +1,7 @@
 # Write your code here.
 require "pry"
 
-katz_deli = []
+# katz_deli = []
 
 def take_a_number(arr, name)
   num_in_line = arr.length
