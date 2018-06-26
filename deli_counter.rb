@@ -29,7 +29,7 @@ def now_serving(arr)
   end
 end
  
-def line(rest_arr)
+def line(arr)
   if rest_arr.length == 0 
     puts "The line is currently empty."
   else line = rest_arr.join(" ")
