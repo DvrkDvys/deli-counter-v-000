@@ -17,10 +17,10 @@ def now_serving(arr)
 end
  
 def line(arr)
-  if rest_arr.length == 0 
+  if arr.length == 0 
     puts "The line is currently empty."
   else 
-    katz_deli.each_with_index do |value, index|
+    arr.each_with_index do |value, index|
     message += " #{index.to_i+1}. #{value}"
     end
     puts "#{message}"
