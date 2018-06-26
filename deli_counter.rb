@@ -22,7 +22,7 @@ def take_a_number(arr, name)
 end
 
 def now_serving(arr)
-   if rest_arr.length == 0 
+   if arr.length == 0 
     puts "The line is currently empty."
   else line = arr.join(" ")
     puts "The line is currently: #{line}"
