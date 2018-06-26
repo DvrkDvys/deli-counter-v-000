@@ -3,18 +3,14 @@ require "pry"
 
 def take_a_number(arr, name)
   arr << name
-  info = "Welcome, #{name}. You are number #{arr.length} in line."
-  puts info
-  return info
+  puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
 
 def now_serving(arr)
   if arr.length == 0  
     puts "There is nobody waiting to be served!"
   else
-    info = "Currently serving #{arr.shift}."
-    puts info
-    # return info
+    puts "Currently serving #{arr.shift}."
   end
 end
  
