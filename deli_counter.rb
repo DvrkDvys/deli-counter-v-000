@@ -3,13 +3,11 @@
 katz_deli = []
 
 def take_a_number(arr, name)
-  place = []
-  name = []
   num_in_line = arr.length
   
   when != ''
   num_in_line += 1
-  arr.push.("")
+  arr.push.("#")
   
 
   puts "#{place}. "arr
