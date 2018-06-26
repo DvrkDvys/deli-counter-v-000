@@ -10,6 +10,8 @@ def now_serving(katz_deli)
   puts "Currently serving #{}."
 end
  
-def line(katz_deli)
-  puts "The line is currently: 1. #{} 2. #{}"
+def line(restaurant_array)
+  if restaurant_array.length = 0 
+    ou
+    puts "The line is currently: 1. #{} 2. #{}"
 end
