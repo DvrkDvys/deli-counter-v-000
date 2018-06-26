@@ -14,7 +14,7 @@ require "pry"
 #   end
 # end
 
-def num_in_line(arr, name)
+def take_a_number(arr, name)
   arr << name
   puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
