@@ -6,10 +6,10 @@ def take_a_number(katz_deli, "Matz")
   
 end
 
-def now_serving(katz_deli) #=> "Currently serving Ada."
+def now_serving(katz_deli)
   puts "Currently serving #{}."
 end
  
-def line(katz_deli) #=> "The line is currently: 1. Grace 2. Kent"
-
+def line(katz_deli)
+  puts "The line is currently: 1. #{} 2. #{}"
 end
