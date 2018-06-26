@@ -6,7 +6,7 @@ def take_a_number(arr, name)
   num_in_line = 0
   when != ''
   num_in_line += 1
-  arr 
+  arr.length 
   
   puts arr
 end
