@@ -12,7 +12,9 @@ def now_serving(arr)
   if arr.length == 0  
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{katz_deli.shift}."
+    info = "Currently serving #{katz_deli.shift}."
+    puts info
+  return info
   end
 end
  
