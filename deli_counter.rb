@@ -18,7 +18,7 @@ end
 def line(rest_arr)
   if rest_arr.length == 0 
     puts "The line is currently empty."
-  else line = rest_arr.join
+  else line = rest_arr.join(" ")
     puts "The line is currently: #{line}"
   end
 end
