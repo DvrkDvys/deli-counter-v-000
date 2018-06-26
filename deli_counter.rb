@@ -3,12 +3,16 @@
 katz_deli = []
 
 def take_a_number(arr, name)
+  place = []
+  name = []
   num_in_line = 0
+  
   when != ''
+    
   num_in_line += 1
   arr.length 
   
-  puts arr
+  puts "#{place}. "arr
 end
 
 def now_serving(katz_deli)
