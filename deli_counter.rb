@@ -6,7 +6,10 @@ require "pry"
 def take_a_number(arr, name)
   num_in_line = arr.length
   if num_in_line != 0
-  num_in_line + 1
+  until num_in_line == 1
+  
+  
+  
   arr = arr.push.("#{num_in_line}. #{name}")
   return arr
   end
