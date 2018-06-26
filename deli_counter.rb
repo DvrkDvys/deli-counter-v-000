@@ -2,8 +2,13 @@
 
 katz_deli = []
 
-def take_a_number
-  # katz_deli, "Matz"
+def take_a_number(arr, name)
+  num_in_line = 0
+  when != ''
+  num_in_line += 1
+  arr 
+  
+  puts arr
 end
 
 def now_serving(katz_deli)
