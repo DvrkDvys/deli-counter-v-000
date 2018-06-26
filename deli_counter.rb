@@ -9,6 +9,7 @@ def take_a_number(arr, name)
   num_in_line = num_in_line + 1
   arr = arr.push.("#{num_in_line}. #{name}")
   puts "Welcome, #{name}. You are number #{num_in_line} in line."
+  binding.pry
   return arr
   end
 end
