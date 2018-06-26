@@ -8,7 +8,7 @@ def take_a_number(arr, name)
   if num_in_line != 0
   num_in_line = num_in_line + 1
   arr = arr.push.("#{num_in_line}. #{name}")
-  puts "Welcome, #{name}. You are number 1 in line.""
+  puts "Welcome, #{name}. You are number #{num_in_line} in line."
   return arr
   end
 end
