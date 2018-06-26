@@ -8,7 +8,6 @@ def take_a_number(arr, name)
   num_in_line += 1
   arr.push.("#{num_in_line}. #{name}")
   puts arr
-  end
 end
 
 def now_serving(katz_deli)
