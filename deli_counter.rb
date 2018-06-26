@@ -16,7 +16,6 @@ require "pry"
 
 def take_a_number(arr, name)
   arr << name
-  binding.pry
   return"Welcome, #{name}. You are number #{arr.length} in line."
 end
 
