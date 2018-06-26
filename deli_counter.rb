@@ -5,6 +5,7 @@ require "pry"
 
 def take_a_number(arr, name)
   num_in_line = arr.length
+    binding.pry
   if name != " " 
   num_in_line = num_in_line + 1
   arr = arr.push.("#{num_in_line}. #{name}")
