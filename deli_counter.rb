@@ -16,6 +16,7 @@ require "pry"
 
 def take_a_number(arr, name)
   arr << name
+  puts "Welcome, #{name}. You are number #{arr.length} in line."
   return "Welcome, #{name}. You are number #{arr.length} in line."
 end
 
