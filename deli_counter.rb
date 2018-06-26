@@ -14,7 +14,7 @@ def now_serving(arr)
   else
     info = "Currently serving #{katz_deli.shift}."
     puts info
-  return info
+    return info
   end
 end
  
