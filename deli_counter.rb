@@ -9,7 +9,7 @@ def take_a_number(arr, name)
   
   when != ''
   num_in_line += 1
-  arr.
+  arr.push.("")
   
 
   puts "#{place}. "arr
