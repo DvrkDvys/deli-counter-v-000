@@ -4,7 +4,7 @@ katz_deli = []
 
 def take_a_number(arr, name)
   num_in_line = arr.length
-  when != ''
+  when =! ''
   num_in_line += 1
   arr.push.("#{num_in_line}. #{name}")
   puts arr
