@@ -5,7 +5,7 @@ def take_a_number(arr, name)
   arr << name
   info = "Welcome, #{name}. You are number #{arr.length} in line."
   puts info
-  # return info
+  return info
 end
 
 def now_serving(arr)
