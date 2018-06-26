@@ -16,8 +16,9 @@ require "pry"
 
 def take_a_number(arr, name)
   arr << name
-  puts "Welcome, #{name}. You are number #{arr.length} in line."
-  return "Welcome, #{name}. You are number #{arr.length} in line."
+  info = "Welcome, #{name}. You are number #{arr.length} in line."
+  puts info
+  return info
 end
 
 def now_serving(katz_deli)
